@@ -1,26 +1,27 @@
 {
   "name": "dcp-node-example",
   "version": "1.0.0",
-  "description": "NodeJS Example project for DCP",
-  "main": "events.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wesgarland/dcp-node-example.git"
-  },
+  "description": "NodeJS Example project for DCP.",
   "keywords": [
     "dcp",
     "nodejs"
   ],
-  "author": "Wes Garland",
-  "license": "MIT",
+  "homepage": "https://github.com/Kings-Distributed-Systems/dcp-node-example#readme",
   "bugs": {
-    "url": "https://github.com/wesgarland/dcp-node-example/issues"
+    "url": "https://github.com/Kings-Distributed-Systems/dcp-node-example/issues"
   },
-  "homepage": "https://github.com/wesgarland/dcp-node-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kings-Distributed-Systems/dcp-node-example.git"
+  },
+  "license": "MIT",
+  "author": "Wes Garland",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "dcp-client": "^3.1.11"
-  }
+    "dcp-client": "latest"
+  },
+  "devDependencies": {}
 }
