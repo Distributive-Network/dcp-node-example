@@ -1,17 +1,17 @@
 # dcp-node-example
 
-NodeJS Example project for DCP. It shows how to deploy a DCP job whilst
+A Node.js example project that uses the Distributed Computer. It shows how to deploy a job to the Distributed Computer whilst
 receiving events describing the current state of the job, processing results as
 they are received, and so on.
 
-Fork this github repository to get running quickly with DCP on NodeJS.
+Fork this github repository to get running quickly with the Distributed Computer on Node.js.
 
 ## Important files
 
 | Filename                | Contents                                            |
 | :---------------------- | --------------------------------------------------- |
-| ~/.dcp/id.keystore      | Your DCP identity proxy keystore                    |
-| ~/.dcp/default.keystore | The DCP bank account key to use for paying for work |
+| ~/.dcp/id.keystore      | Your identity proxy keystore                        |
+| ~/.dcp/default.keystore | The 'bank account' key to use for paying for work   |
 
 ## Environment Variables
 
@@ -24,8 +24,10 @@ Fork this github repository to get running quickly with DCP on NodeJS.
 
 You will need Node 10 in your path. If you have an older version of NodeJS, use
 `nvm`; see instructions in the FAQ. Additionally, you will need to copy your
-identity and bank account keystores from the DCP Portal into the .dcp directory
-inside your home directory.
+identity and bank account keystores from the [portal](https://portal.distributed.computer/) of the Distributed Computer into the .dcp directory
+inside your home directory. For more instructions on getting started, visit our [introductory guide here](https://docs.dcp.dev/getting-started).
+
+Note: You will need to join our beta program to have permission to deploy jobs to the Distributed Computer. To do this, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScj6g1PH7Nbejlj5XHrScvtBhTy-2A_l0A8sHMzzihQR79KYw/viewform)!
 
 ```shell
 mkdir ~/.dcp
@@ -67,14 +69,14 @@ will become invalid immediately.
 
 - Visit the portal
 - Create a new bank account
-- Transfer all your DCC into the new account
+- Transfer all your credits into the new account
 - Remove the old account
 
 #### What versions of NodeJS are supported?
 
 We are currently testing Node 10 LTS, version 10.20.
 
-If your operating system has a different version of NodeJS, we suggest using
+If your operating system has a different version of Node.js, we suggest using
 `nvm` to run Node 10 until we can upgrade our crypto libraries. Visit
 `https://nvm.sh/` to download `nvm`.
 
