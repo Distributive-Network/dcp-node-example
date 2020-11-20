@@ -1,6 +1,8 @@
 # dcp-node-example
 
-NodeJS Example project for DCP
+NodeJS Example project for DCP. It shows how to deploy a DCP job whilst
+receiving events describing the current state of the job, processing results as
+they are received, and so on.
 
 Fork this github repository to get running quickly with DCP on NodeJS.
 
@@ -29,7 +31,7 @@ inside your home directory.
 mkdir ~/.dcp
 cp ~/Downloads/id.keystore ~/.dcp
 cp ~/Downloads/default.keystore ~/.dcp
-git clone git@github.com:wesgarland/dcp-node-example.git
+git clone git@github.com:Kings-Distributed-Systems/dcp-node-example.git
 cd dcp-node-example
 npm install
 node events.js

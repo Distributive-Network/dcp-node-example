@@ -1,14 +1,4 @@
-#! /usr/bin/env node
-
-/**
- * @file        events.js
- *              Sample node application showing how to deploy a DCP job whilst receiving
- *              events describing the current state of the job, processing results
- *              as they are received, and so on.
- *
- * @author Wes Garland, wes@kingsds.network
- * @date   Aug 2019
- */
+#!/usr/bin/env node
 
 const scheduler = 'https://scheduler.distributed.computer';
 
