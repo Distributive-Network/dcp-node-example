@@ -36,7 +36,7 @@ cp ~/Downloads/default.keystore ~/.dcp
 git clone git@github.com:Kings-Distributed-Systems/dcp-node-example.git
 cd dcp-node-example
 npm install
-node events.js
+node app.js
 ```
 
 ### FAQ
@@ -132,16 +132,16 @@ $ sudo npm install --global niim
 + niim@1.11.6-g
 updated 1 package in 2.371s
 
-$ niim events.js
+$ niim app.js
 | niim: Node-Inspector IMproved - initialized
 < Debugger listening on ws://127.0.0.1:34117/f1956572-a327-40b2-b70a-20a8b9961228
 < For help, see: https://nodejs.org/en/docs/inspector
 < Debugger attached.
 
-Break on start in events.js:1
+Break on start in app.js:1
 > 1
   2 /**
-  3  * @file        events.js
+  3  * @file        app.js
 niim> c
 < new ready state: exec
 Enter passphrase to unlock keystore 'hello-staging':
