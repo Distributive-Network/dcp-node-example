@@ -21,7 +21,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "dcp-client": "latest"
+    "dcp-client": "latest",
+    "dcp-worker": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
